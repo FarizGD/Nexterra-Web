@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         if (selectedRank) {
             const rankName = selectedRank.value;
-            const message = `Halo Bang Atmin, saya ingin membeli ${rankName} di Server Nexterra Network. Bagaimana cara pembayarannya? Wahai atmin sepuh tiada ampun? (Msg template by FarizGD)`;
+            const message = `Halo Bang Atmin, saya ingin membeli ${rankName} di Server Nexterra Network. Bagaimana cara pembayarannya? Wahai atmin sepuh tiada ampun? \n> Msg template by FarizGD`;
 
             // Format link WhatsApp
             const waLink = `https://wa.me/${akbarWhatsApp}?text=${encodeURIComponent(message)}`;
