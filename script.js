@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = groupLink;
     });
 
-    orderButton.addEventListener("click", function () {
+    orderButton.addEventListener("click", function (event) {
         // Ambil pilihan rank atau GMC Trial yang dipilih
         const selectedRank = document.querySelector('input[name="rank"]:checked');
         
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Arahkan ke WhatsApp
             window.location.href = waLink;
         } else {
-            alert("Silakan pilih salah satu rank atau GMC Trial terlebih dahulu!");
+            alert("Silakan pilih salah satu rank atau EXP terlebih dahulu!");
         }
     });
 });
