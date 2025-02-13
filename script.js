@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const orderButton = document.getElementById("orderButton");
 
     // Link Grup WhatsApp
-    const groupLink = "https://chat.whatsapp.com/XXXXXXX";
+    const groupLink = "https://chat.whatsapp.com/HfvVJeis1sHAyrzqsMtF9d";
     
-    // Nomor WhatsApp Louis
-    const louisWhatsApp = "6287717274346";
+    // Nomor WhatsApp Louis kontol
+    const akbarWhatsApp = "6283138981041";
 
     joinButton.addEventListener("click", function (event) {
         event.preventDefault();
@@ -19,15 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
         
         if (selectedRank) {
             const rankName = selectedRank.value;
-            const message = `Halo Louis, saya ingin membeli ${rankName} di CoreGaming SMP. Bagaimana cara pembayarannya?`;
+            const message = `Halo Bang Atmin, saya ingin membeli ${rankName} di Server Nexterra Network. Bagaimana cara pembayarannya? Wahai atmin sepuh tiada ampun? (Msg template by FarizGD)`;
 
             // Format link WhatsApp
-            const waLink = `https://wa.me/${louisWhatsApp}?text=${encodeURIComponent(message)}`;
+            const waLink = `https://wa.me/${akbarWhatsApp}?text=${encodeURIComponent(message)}`;
 
             // Arahkan ke WhatsApp
             window.location.href = waLink;
         } else {
-            alert("Silakan pilih rank atau GMC Trial terlebih dahulu!");
+            alert("Silakan pilih salah satu rank atau GMC Trial terlebih dahulu!");
         }
     });
 });
