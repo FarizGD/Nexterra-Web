@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const groupLink = "https://chat.whatsapp.com/HfvVJeis1sHAyrzqsMtF9d";
     
     // Nomor WhatsApp Louis kontol
-    const akbarWhatsApp = "6283138981041";
+    const louisWhatsApp = "6283138981041";
 
     joinButton.addEventListener("click", function (event) {
         event.preventDefault();
@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
         
         if (selectedRank) {
             const rankName = selectedRank.value;
-            const message = `Halo Bang Atmin, saya ingin membeli ${rankName} di Server Nexterra Network. Bagaimana cara pembayarannya? Wahai atmin sepuh tiada ampun? \n> Msg template by FarizGD`;
+            const message = `Wahai sang Atmin, hamba ingin membeli ${rankName} di Server Nexterra Network. Bagaimana cara pembayarannya?`;
 
             // Format link WhatsApp
-            const waLink = `https://wa.me/${akbarWhatsApp}?text=${encodeURIComponent(message)}`;
+            const waLink = `https://wa.me/${louisWhatsApp}?text=${encodeURIComponent(message)}`;
 
             // Arahkan ke WhatsApp
             window.location.href = waLink;
